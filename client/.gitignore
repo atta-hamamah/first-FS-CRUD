@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# DB user and pass
+# 7atta3
+# MB8f41dJZwIZCd6y

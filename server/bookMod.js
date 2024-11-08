@@ -1,2 +1,13 @@
-
-export const book = mongoose.model('book', { name: String });
+import mongoose from 'mongoose'
+const bookSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true,
+    },
+    author: {
+        type: String,
+        required: true
+    },
+})
+const Book = mongoose.model('Book', bookSchema)
+export default Book
